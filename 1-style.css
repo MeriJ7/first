@@ -1,0 +1,216 @@
+/* Global Global Global Global Global Global Global Global Global Global Global Global Global*/
+@keyframes logo {
+    from{transform: scale(0.001); opacity: 0;}
+    to{transform: scale(1); opacity: 100;}
+}
+@keyframes input {
+    from{transform: scale(0.001); opacity: 0;}
+    to{transform: scale(1); opacity: 100;}
+}
+body{
+    margin: 0%;
+}
+#logo{
+    animation-name: logo ;
+    animation-duration: 1.3s;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+}
+#bg{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(258deg, rgba(60, 59, 168, 0.6) 0%, rgba(30, 138, 116, 0.6) 100%);
+}
+.form{
+    border-radius: 20px;
+    width: 480px;
+    height: 620px;
+    background:linear-gradient(52deg, rgba(22,160,133,0.65) 0%, rgba(244,208,63,0.65) 100%) , url(photos/bg2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    box-shadow: 5px 5px 20px rgb(14, 1, 49);
+}
+.form div{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 419px;
+    /*background-color: black;*/
+    align-items: center;
+    justify-content: center;
+}
+/* Login Login Login Login Login Login Login Login Login Login Login Login Login Login Login*/
+.title{
+    color: rgb(16, 7, 99);
+    font-size: 45px;
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.input-box{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    position: relative;
+    outline: none;
+    border: 2.5px inset rgb(47, 22, 190);
+    background: rgba(221, 221, 221, 0.644);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-right: 126px;
+    margin-top: 23px;
+    opacity: 1;
+    padding: 12px 30px;
+}
+.input-box::placeholder{
+    color: rgb(41, 41, 41);
+}
+.check-box{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    display: inline-block;
+    position: relative; left: 26%;
+    margin-top: 13px;
+}
+.remember-me{
+    display: inline-block;
+    animation-name: input ;
+    animation-duration: 5s;
+    animation-name: input ;
+    animation-duration: 1.3s;
+    font-size: 19px;
+    color: #030c50;
+    margin-left: 26%;
+}
+.input-sub{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    position: absolute;
+    margin-left: 8%;
+    background: rgba(221, 221, 221, 0.644);
+    border: 2.5px inset rgb(47, 22, 190);
+    border-radius: 20px;
+    padding: 8px 38px;
+    cursor: pointer;
+}
+.input-sub2{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    position: absolute;
+    margin-left: 16.5%;
+    background: rgba(221, 221, 221, 0.644);
+    border: 2.5px inset rgb(47, 22, 190);
+    border-radius: 20px;
+    padding: 8px 38px;
+    cursor: pointer;
+}
+.fp{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 5px;
+    color: aliceblue;
+}
+/* Register Register Register Register Register Register Register Register Register Register*/
+.title2{
+    color: rgb(175, 4, 4);
+    font-size: 45px;
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.input-box-re1{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    border: 2.5px inset rgb(255, 0, 0);
+    background: rgba(221, 221, 221, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 23px;
+    opacity: 1;
+    padding: 12px 30px;
+}
+.input-box-re2{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    outline: none;
+    display: inline-block;
+    border: 2.5px inset rgb(255, 0, 0);
+    background: rgba(221, 221, 221, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 42px;
+    margin-top: 27px;
+    opacity: 1;
+    padding: 10px 3px;
+}
+.input-box-re1::placeholder , .input-box-re2::placeholder , .input-sub3{
+    color: #380808;
+}
+.input-sub3{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    border: 2.5px inset rgb(255, 0, 0);
+    background: rgba(221, 221, 221, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 185px;
+    margin-top: 23px;
+    opacity: 1;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+/* Forget Password Forget Password Forget Password Forget Password Forget Password Forget Password*/
+.title3{
+    color: rgb(57, 0, 104);
+    font-size: 45px;
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.input-box-fp1{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    border: 2.5px inset rgb(129, 17, 194);
+    background: rgba(221, 221, 221, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 23px;
+    opacity: 1;
+    padding: 12px 30px;
+}
+.input-sub4{
+    animation-name: input ;
+    animation-duration: 1.3s;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    border: 2.5px inset rgb(129, 17, 194);
+    background: rgba(221, 221, 221, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 23px;
+    opacity: 1;
+    padding: 11px 62px;
+    cursor: pointer;
+}
+.input-box-fp1::placeholder , .input-sub4{
+    color: #59006b;
+}

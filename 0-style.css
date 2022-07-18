@@ -1,0 +1,113 @@
+/*                                        Home Home Home Home Home                                           */
+*{
+    margin: 0;
+}
+@keyframes title {
+    from{transform: scale(0.001); opacity: 0;}
+    to{transform: scale(1); opacity: 100;}
+}
+@keyframes lastnews {
+    0%{transform: scale(0.001); opacity: 0;}
+    65%{transform: scale(0.001); opacity: 0;}
+    100% {transform: scale(1); opacity: 1;}
+}
+@keyframes dashboard {
+    0%{transform: scale(0.3); opacity: 0.3;}
+    100%{transform: scale(1); opacity: 1;}
+}
+#banner1{
+    background:linear-gradient(177deg, rgba(71,131,203,0.8267682072829132) 0%, rgba(82,88,14,0.4066001400560224) 59%, rgba(28,33,1,0.3561799719887955) 100%), url(photos/bg1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+#banner1-logo{
+    animation-name: title;
+    animation-duration: 1.5s;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+}
+#banner1-title{
+    animation-name: title;
+    animation-duration: 2s;
+    padding-top: 19vh ;
+    font-size: 13vh;
+    color: rgb(227, 242, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-align: center;
+}
+.banner1-div a{
+    animation-name: title;
+    animation-duration: 2s;
+    margin: 0 85px;
+    text-decoration: none;
+    padding: 3px 25px;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    height: 20px;
+    font-style: italic;
+    color: rgb(241, 219, 184);    
+    border-radius: 11%;
+}
+#pl{
+    background: linear-gradient(90deg, #3da8ffa6 0%, #38104fa6 100%);
+}
+#la{
+    background: linear-gradient(90deg, rgba(190,0,0,0.7) 0%, rgba(208,206,0,0.7) 50%, rgba(190,0,0,0.7) 100%);
+}
+#sr{
+    background: linear-gradient(90deg, rgba(0,128,8,0.85) 0%, rgba(171,161,151,0.85) 50%, rgba(187,20,20,0.85) 100%);
+}
+#l1{
+    background: linear-gradient(90deg, rgba(0, 35, 149, 0.67) 1%, rgba(215, 213, 206, 0.67) 50%, rgba(237, 20, 42, 0.67) 94%);
+}
+#bo{
+    background: linear-gradient(90deg, rgba(229, 231, 0, 0.68) 20%, rgba(218, 0, 0, 0.68) 50%, rgba(0, 0, 0, 0.68) 80%);
+}
+.banner1-down h1{
+    animation-name: lastnews;
+    animation-duration: 4s;
+    font-size: 85px;
+    color: rgba(10, 31, 19, 0.644);
+    text-shadow: 0.5px 0.5px , -0.5px -0.5px;
+    margin-top: 9vh;
+    margin-left: 24vh;
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px solid rgb(6, 54, 25);
+    border-left:0px;
+}
+#down-aroow{
+    height: 120px;
+    position: absolute; bottom: 12%; left: 3%;
+    animation-name: lastnews;
+    animation-duration: 3.85s;
+    opacity: 0.75;
+}
+#banner1-dashboard{
+    animation-name: dashboard;
+    animation-duration: 1.8s;
+    padding: 10px;
+    background: rgba(226, 235, 248, 0.493);
+    box-shadow: 4px 4px 2px rgba(83, 124, 180, 0.555) , -4px -4px 2px rgba(83, 124, 180, 0.555);
+    /*background-color:rgba(111, 155, 226, 0.7) ;*/
+    display: inline-block;
+    height: 45px;
+    border-radius: 11px;
+}
+#banner1-dashboard ul{
+    width: 780px;
+    height: 50px;
+    padding-top: 10px ;
+}
+#banner1-dashboard ul li{
+    display: inline;
+    padding: 0 15px;
+}
+#banner1-dashboard ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(48, 19, 151);
+}
